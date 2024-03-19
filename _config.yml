@@ -12,10 +12,7 @@ people:
 - name: Andrea Cunningham
   pic: 1
   position: Owner/Practitioner
-  social:
-    - title: instagram
-    url: http://instagram.com/alignedlighthealing
-
+  social: http://instagram.com/alignedlighthealing
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
