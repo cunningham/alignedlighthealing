@@ -1,30 +1,76 @@
-Agency Jekyll theme
-====================
+# Frisco
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/).
+Increase the web presence of a App with this configurable theme.
 
-# How to use
+![Frisco template screenshot](images/_screenshot.jpg)
 
-###Portfolio 
+Frisco was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 
-Portfolio projects are in '/_posts'
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
-Images are in '/img/portfolio'
+## Features
 
-###About
+* Contact form
+* Pre-built pages
+* Pre-styled components
+* Blog with pagination
+* Post category pages
+* Disqus comments for posts
+* Staff and author system
+* Configurable footer
+* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* RSS/Atom feed
+* SEO tags
+* Google Analytics
 
-Images are in '/img/about/'
+## Setup
 
-###Team
+1. Add your site and author details in `_config.yml`.
+2. Add your Google Analytics and Disqus keys to `_config.yml`.
+3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
-Team members and info are in '_config.yml'
+## Develop
 
-Images are in '/img/team/'
+Frisco was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
+Install the dependencies with [Bundler](http://bundler.io/):
 
-# Demo
+~~~bash
+$ bundle install
+~~~
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+~~~bash
+$ bundle exec jekyll serve
+~~~
+
+## Editing
+
+Frisco is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
+
+### Posts
+
+* Add, update or remove a post in the *Posts* collection.
+* The **Staff Author** field links to members in the **Staff Members** collection.
+* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
+* Change the defaults when new posts are created in `_posts/_defaults.md`.
+
+### Contact Form
+
+* Preconfigured to work with CloudCannon, but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
+
+### Staff
+
+* Reused around the site to save multiple editing locations.
+
+### Footer
+
+* Exposed as a data file to give clients better access.
+* Set in the *Data* / *Navigation* section.
+
+### Footer
+
+* Exposed as a data file to give clients better access.
+* Set in the *Data* / *Footer* section.
