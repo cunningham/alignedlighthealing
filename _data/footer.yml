@@ -3,6 +3,8 @@ left_links:
   #  link: /blog/
   - name: About
     link: /about/
+  - name: Scheduling
+    link: /scheduling/
   - name: Contact
     link: /contact/
 right_links:
