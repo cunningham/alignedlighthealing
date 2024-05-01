@@ -1,5 +1,5 @@
 .hero {
-	color: #ffffff;
+	color: #ffffff00;
 	text-align: center;
 	height: 100vh;
 	min-height: 550px;
@@ -19,7 +19,7 @@
 }
 
 	p {
-		color: #fff;
+		color: #ffffff00;
 	}
 
 	.inner-hero {
@@ -33,7 +33,7 @@
 		text-align: left;
 		background-color: rgba(255, 255, 255, 0.5); /* white background with 50% opacity */
 		padding: 20px; /* add some padding to give space around the text */
-		border-radius: 10px; /* optional: to make the corners rounded */
+		border-radius: 5px; /* optional: to make the corners rounded */
 		h1, h2, p, .button {
 			text-shadow: 1px 1px 1px rgba(0,0,0,.8);
 		}
