@@ -26,13 +26,13 @@
 	text-shadow: none;
 }
 
-.button.altb a {
+.button.dark a {
 	background: rgba(255,255,255,0);
-	border: 2px solid rgba(255, 255, 255, 0);
+	border: 2px solid rgb(0, 0, 0);
 	color: #000;
 }
 
-.button.altb a:hover {
+.button.dark a:hover {
 	background: #fff;
 	color: $brand-color;
 	text-shadow: none;
