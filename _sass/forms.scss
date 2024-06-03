@@ -2,6 +2,7 @@
 	color: $brand-color;
 	text-decoration: none;
 	border: 2px solid $brand-color;
+	border-radius: 5px;
 	transition: .2s ease-in-out;
 	display: inline-block;
 	padding: 16px 50px;
@@ -10,30 +11,35 @@
 
 .button a:hover, input[type=submit]:hover {
 	background: $brand-color;
+	border-radius: 5px;
 	color: #fff;
 	cursor: pointer;
 }
 
 .button.alt a {
 	background: rgba(255,255,255,0);
+	border-radius: 5px;
 	border: 2px solid rgba(255, 255, 255, 1);
 	color: #fff;
 }
 
 .button.alt a:hover {
 	background: #fff;
+	border-radius: 5px;
 	color: $brand-color;
 	text-shadow: none;
 }
 
 .button.dark a {
 	background: rgba(255,255,255,0);
+	border-radius: 5px;
 	border: 2px solid rgb(0, 0, 0);
 	color: #000;
 }
 
 .button.dark a:hover {
 	background: #000;
+	border-radius: 5px;
 	color: $brand-color;
 	text-shadow: none;
 }
