@@ -1,7 +1,7 @@
 #- name: Blog
 #  link: /blog/
-- name: About
-  link: /about/
+#- name: About
+#  link: /about/
 - name: Scheduling
   link: /scheduling/
 - name: Contact
