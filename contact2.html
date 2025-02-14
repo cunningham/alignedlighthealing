@@ -1,0 +1,32 @@
+---
+title: Contact
+description: Send me a message
+map:
+  latitude: 45.586655813861285
+  longitude: -122.40659091621514
+  address: "235 NE 6th Ave, Camas, WA 98607"
+  zoom: 13
+image: https://alignedlighthealing.com/images/header-main.jpg
+---
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable">Get in touch today</h1>
+			<p class="subtext editable">If you have any questions send me a message and I'll get back to you as soon as I can.</p>
+		</div>
+	</div>
+</section>
+
+<section class="pad">
+	<div class="text-container contact-box">
+		<iframe width="540" height="305" src="https://sibforms.com/serve/MUIFAA8pay2ESlfYC2okSRaxYRkdQ9kNLhrqLXkT68GnEsM8YgTqabKUL-ox9wr56IR4l3jlc-ylavB6aNk1RSwTeU5RZMmEhO1JvVMvA-zH1_qO0LGoTRXtdsPPHUo6fj27mqEK0mWEKH2aY7B0NaPZzv2inr4BDksLQdkf1O23-x7MVhPdFZ-6cdBF-PE6joD42CXJGwPyQS9h" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+		<div class="contact-details">
+			<h3>Address</h3>
+			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+
+			<h3>Email</h3>
+			<p class="editable"><a href="mailto:acunningham27@gmail.com">alignedlighthealing27@gmail.com</a></p>
+		</div>
+	</div>
+</section>
