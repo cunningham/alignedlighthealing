@@ -5,8 +5,8 @@ left_links:
  #   link: /about/
   - name: Scheduling
     link: /scheduling/
-  - name: Contact
-    link: /contact/
+#  - name: Contact
+#    link: /contact/
 right_links:
   - name:
     link: https://instagram.com/alignedlighthealing
